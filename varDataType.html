@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Value Types in JS</title>
+</head>
+<body>
+    <script>
+        //js data value types >>>>>>>1. primitive  - immutable single value data type in js 
+        // string ,number , boolean , undefined , null , bigint and symbol 
+
+        // string 
+        var myname="Ratan";
+        console.log(myname);
+        // number
+
+        var mymob=9865;
+        console.log(myname+" mobile no is " +mymob);
+
+        //boolean
+         var ismarried=false;
+         console.log(myname + " is married ?" + ismarried);
+
+
+         //undefined
+         var myemail;
+         console.log(myemail);
+         console.log(typeof(myemail));  //null
+
+         //null
+         var myaddress=null;
+         console.log(myaddress);
+         console.log(typeof(myaddress));  //object
+
+
+         //BiginT
+        //  var mynum=22472946270208489846362773764678239829012;
+         var mynum=BigInt(22472946270208489846362773764678239829012);
+         console.log(mynum);
+         console.log(typeof(mynum));
+
+         //symbol 
+         var var1= Symbol("Ratan");
+         var val2=Symbol("Ratan");
+         console.log(var1==var2);
+    </script>
+</body>
+</html>
